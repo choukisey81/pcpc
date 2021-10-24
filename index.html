@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+
+        }
+
+        #pp {
+            width: 100%;
+            height: 100vh;
+            background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20201009/pngtree-dark-green-cyan-paper-cut-minimalist-background-for-brochure-poster-banner-image_405384.jpg);
+            padding: 20px;
+        }
+
+        #mm {
+            border: 1px solid black;
+            width: 87%;
+            height: 87vh;
+            background-color: rgba(255, 68, 0, 0.219);
+            margin: 5%;
+            text-align: center;
+            color: white;
+        }
+
+        form .box {
+            width: 98%;
+            height: 2.8em;
+            position: relative;
+            bottom: 10px;
+            bottom: 0;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="pp">
+        <div id="mm">
+
+            <h1 style="color: black;">Dinner in the Sky</h1>
+            <form>
+                <label>Name</label>
+                <input type="text" name="name" placeholder="Enter your Name" required minlength="3" pattern="a-zA-Z"
+                    class="box" />
+                <label>Last Name</label>
+                <input type="text" name="lastname" placeholder="Enter your lastname" pattern="a-z" class="box">
+                </label><br><br>
+                <label>Email Id</label>
+                <input type="Email Id" pattern="@gmail.com" placeholder="Enter your email id" class="box"><br><br>
+                <label>Mobile Number</label>
+                <input type="digit" pattern="(0-9)" placeholder="Enter your Number" required minlength="10"
+                    maxlength="10" class="box"><br><br>
+                <label for="Selector">Gender</label>
+                <select id="selection">
+                    <option value="car">Male</option>
+                    <option value="bike">Female</option>
+                    <option value="bycicle">Other</option><br><br>
+
+                </select><br><br>
+                <div>
+                    <label>Pizza?</label>
+                    <input type="radio" name="Pizza">
+                    <label>Mushroom Pizza</label>
+                    <input type="radio" name="Pizza">
+                    <label>Chese Pizza</label>
+                    <input type="radio" name="Pizza">
+                    <label>Neapolitan Pizza</label>
+                    <input type="radio" name="Pizza">
+                    <label>Chicago Pizza</label><br><br>
+                        <label>Burger King?</label>
+                        <input type="radio" name="Pizza">
+                        <label>Mushroom Burger</label>
+                        <input type="radio" name="Pizza">
+                        <label>Chese Burger</label>
+                        <input type="radio" name="Pizza">
+                        <label>Spicy Burger</label>
+                        <input type="radio" name="Pizza">
+                        <label>Chicken Burger</label><br><br>
+                        <label>Fries King?</label>
+                        <input type="radio" name="Pizza">
+                        <label>Potato Wedges</label>
+                        <input type="radio" name="Pizza">
+                        <label>Chilli Chese Fries</label>
+                        <input type="radio" name="Pizza">
+                        <label>Waffle Fries</label>
+                        <input type="radio" name="Pizza">
+                        <label>Olenta Fries</label><br><br>
+                        <button style="color: black;">Order Now</button>
+
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
