@@ -1,0 +1,114 @@
+.content_show{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-left: -30%;
+
+
+}
+
+#btn{
+    z-index: 900;
+}
+
+
+.card{
+    display: flex;
+    background-color: white;
+    border: 1px solid #ababab;
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+    transition: all o.25s linear;
+    height: 200px;
+    width: 200px;
+    margin-top: 8rem;
+}
+.nav{
+    height: 100px;
+}
+
+
+.d-none{
+display: none;
+}
+/* .show{
+    display: block;
+} */
+.container{
+    display: flex;
+}
+
+.side_nav{
+    width: 20%;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.drive{
+    display: flex;
+    gap: 1.5rem;
+}
+.text{
+    margin-top: 5px;
+}
+.drive img{
+    margin-left: 10px;
+}
+
+.contents{
+    height: 50px;
+    width: 150px;
+
+    margin: 4px;
+    margin-left: 10px;
+    text-align: center;
+    line-height : 50px;
+    font-weight: bolder;
+
+}
+
+#input{
+    width: 520px;
+    margin-top: 10px;
+    margin-left: 30%;
+    height: 40px;
+    background-color: #d6d2d2;
+    border: none;
+    border-radius: 10px;
+}
+
+.gdrive{
+    display: flex;
+    height: 30px;
+    width: 500px;
+
+    margin-left: 30%;
+    margin-top: 20px;
+    padding-left: 20px;
+    justify-content: space-between;
+    font-weight: bolder;
+}
+#suggested{
+margin-left: 50%;
+}
+
+.content_list{
+    margin-top: 8rem;
+    margin-left: -25%;
+}
+table{
+    display: flex;
+    border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 18px;
+  }
+  .first{
+      display: flex;
+      height: 300px;
+      width: 500px;
+      background-color: aqua;
+  }
