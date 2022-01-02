@@ -1,0 +1,42 @@
+.container {
+    width:100%;
+    margin: 0px auto;
+}
+h1 {
+    text-align:center;
+}
+#left-column {
+    width: 70%;
+    float: left;
+   background: #efefef;
+}
+#right-column {
+    width: 30%;
+    float: left;
+    background: gray;
+}
+img{
+    background-size: cover;
+}
+
+@media  screen and (max-width: 959px) {
+  #container {
+      width: 100px;
+  }
+  #left-column {
+    width: 70%;
+}
+#right-column {
+    width: 30%;
+}
+}
+
+@media screen and (max-width:640px){
+    #left-column {
+        width: 100%;
+    }
+    #right-column {
+        width: 100%;
+    }
+
+}
