@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factorial</title>
+    <style>
+       body{
+            background-color:cornsilk;
+        }
+        #main{
+            width: 30vw;
+            height: 70vh;
+            background: pink;
+            display: block;
+            align-items: center;
+            justify-content: center;
+            margin: auto;
+            margin-top: 70px;
+            text-align: center;
+        }
+        input{
+            width: 60%;
+            height: 30%;
+            text-align: center;
+            border: 2px solid blue;
+            box-shadow: darkgray;
+        }
+        button{
+            width: 40%;
+            height: 10%;
+            border-radius: 50px;
+            background: yellow;
+            cursor: pointer;
+        }
+        h1{
+            font-family: 'Courier New', Courier, monospace;
+            color: black;
+            padding: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+    <h1>Find factorial number using Recursion</h1>
+    
+    <input type="number" aria-label="number" value="" id="b1" placeholder="Enter Postive Number"/><br />
+    <br>
+    <button onclick="fact()">Find Factorial</button>
+    <p id="result"></p>
+</div>
+    
+    <script>
+        function factorial(x){
+            if(x == 0)
+            return  1;
+            else
+            return x * factorial(x - 1);
+        }
+        function fact(){
+            var n = document.getElementById("b1").value;
+            if(n == "")
+            alert("Enter any postive number")
+            else if(n >= 0)
+            {      
+            const output = factorial(n);
+            document.getElementById("result").innerText = output;
+        }
+        }
+    </script>
+    
+</body>
+</html>
